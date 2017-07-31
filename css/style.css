@@ -1,0 +1,166 @@
+.contenedor{
+    max-width: 980px;
+    text-align: center;
+    margin: auto;
+}
+
+body{
+	background: #EFF2EF;
+}
+header{
+	background: #B9ACF0;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	list-style: none;
+	}
+.menu li{
+	text-decoration: none;
+	margin: auto;
+ }
+
+ a{
+ 	font-size: 17px;
+	color: #E36397;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+ 		a:hover{
+			color: pink;
+			border-top: 1px solid pink;
+			border-bottom: 1px solid pink;
+			background: darken (pink, 50%); /* ??? */
+			text-decoration: none;
+			}
+
+.productos h1{
+	text-align: center;
+	color: #E36397;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.productos div{
+	display: flex;
+}
+
+.productos1 article{
+	text-decoration: none;
+	background: #B9ACF0;
+	margin: auto;
+}
+.productos1 img{
+	max-width: 300%;
+}
+
+.link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	padding: 15px 30px;
+	background: #E36397;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: 1s;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
+.link:hover{
+	background: pink;
+	color: black;
+	font-weight: bold; 
+	transform: scale(1.2);
+}
+
+
+.enviocolor{
+	background: #B5B1B2;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 20px;
+}
+.envio{
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+
+.envio article{
+	padding: 20px;
+}
+
+.envio .bordeizq{
+	border-left: 5px solid #E36397;
+}
+
+.envio1{
+	color: #E36397;
+	font-size: 30px;
+}
+ 
+.envio h6{
+	color: #E36397;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+footer{
+	background: #A59D9B;
+	/* background: url("../imagenes/gato.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; */
+	margin: 17px 0;
+}
+.footer1{
+	display: flex;
+    text-align: center;
+    align-items: center;
+ }
+
+
+.footernav h6{
+	color: pink;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 27px;
+}
+
+.footernav li{
+	text-decoration: none;
+	color: pink;
+	font-size: 30px;
+}
+
+
+.formulario{
+	margin: 0 auto;
+    width: 300px;
+    padding: 3em;
+    border: 3px solid pink;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.formulario label{
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    color: pink;
+    font-size: 20px;
+}
+
+.boton {
+	margin: 11px 46px;
+	background: pink;
+	border: 1px solid pink;
+	font-weight: bold;
+}
+
