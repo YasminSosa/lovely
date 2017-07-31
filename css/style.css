@@ -47,13 +47,29 @@ header{
 	display: flex;
 }
 
+.productos1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/*
 .productos1 article{
 	text-decoration: none;
 	background: #B9ACF0;
 	margin: auto;
 }
-.productos1 img{
-	max-width: 300%;
+*/
+.productos1 article{
+	width: 45%;
+}
+
+.productos1 article:last-child {
+	margin: auto;
+}
+
+.productos1 article img {
+	width: 100%;
 }
 
 .link{
@@ -122,6 +138,12 @@ footer{
 	display: flex;
     text-align: center;
     align-items: center;
+    justify-content: space-around;
+ }
+
+ .footer1 article {
+ 	width: 32%;
+ 	//display: inline-block;
  }
 
 
@@ -135,13 +157,14 @@ footer{
 .footernav li{
 	text-decoration: none;
 	color: pink;
+	list-style: none;
 	font-size: 30px;
 }
 
 
 .formulario{
-	margin: 0 auto;
-    width: 300px;
+	//margin: 0 auto;
+    //width: 300px;
     padding: 3em;
     border: 3px solid pink;
     border-radius: 1em;
